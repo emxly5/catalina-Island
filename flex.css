@@ -8,7 +8,7 @@ body {
   .content-wrapper {
     margin-right: auto;
     margin-left: auto;
-    max-width:  960px;
+    max-width:  1100px;
   }
   
   
@@ -89,11 +89,16 @@ body {
   }
   
   
-  
   header {
+    clear: both;
     text-align: center;
-    /*background-color: lightgray;*/
-    /*border: 5px solid black;*/
+    display: block;
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+    background-color:aqua;
+    display: flex;
+    flex-direction: column;
   }
   
   
@@ -107,6 +112,7 @@ body {
   
   .byline {
     font-family: "Playfair Display", serif;
+    background-color: lightslategray;
     font-size: 1.2rem;
   }
   
